@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    min-height: 600px;
+    min-width: 700px;
+    background-color: hsl(216, 12%, 8%);
+    position: relative;
+}
+
+div.container {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 35px 25px;
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+}
+
+div.index2 {
+    text-align: center;
+}
+
+div:not(.container, .submit-btn-container, .msg-container) {
+    margin-bottom: 30px;
+}
+
+div.star-container {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 50%;
+}
+
+span.star {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.5em;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rating-button {
+    width: 52px;
+    height: 52px;
+    float: left;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 25%);
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+}
+
+.rating-button:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.rating-button:not(.rating-button:last-child) {
+    margin-right: 10px;
+}
+
+.rating-container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.submit-btn:active {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+span.score {
+    padding: 10px 20px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 25px;
+}
+
+@media screen and (max-width:485px) {
+    body {
+        min-width: 375px;
+    }
+}
