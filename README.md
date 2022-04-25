@@ -21,8 +21,8 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-![](./images/irc.jpg)
-![](./images/ty.jpg)
+![](./images/irc.png)
+![](./images/ty.png)
 
 ## My process
 
