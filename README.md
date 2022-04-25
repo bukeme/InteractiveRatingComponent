@@ -1,6 +1,6 @@
 # InteractiveRatingComponent
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Personally,  Frontend Mentor challenges has helped me  improve my coding skills by building realistic projects and i feel Frontend Mentor challenges will be of great help to you if you are interested in improving your Frontend skills.
-##Table of contents
+## Table of contents
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
@@ -9,9 +9,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [What i learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-##Overview
+## Overview
 
-###The challenge
+### The challenge
 
 Users should be able to:
 
@@ -20,7 +20,7 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-###Screenshot
+### Screenshot
 ![](./images/irc.jpg)
 ![](./images/ty.jpg)
 
@@ -39,7 +39,7 @@ I learned how to use css media query, css float, clearfix hack, just to mention 
 CSS flexbox and CSS grid are the best to use for this kind of project but i used CSS float because i apparently don't have broad knowledge on CSS flexbox and CSS grid.
 In the nearest future(period of days), i'll go in-depth in  CSS flexbox and CSS grid.
 
-##Author
+## Author
 
 - Facebook - [Bassey Ukeme](https://www.facebook.com/ukeme.bassey.7796/)
 - Frontend Mentor - [@bukeme](https://www.frontendmentor.io/profile/bukeme)
